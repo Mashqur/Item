@@ -1,0 +1,67 @@
+.container-grid {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  column-gap: 20px;
+  background-color:rgb(246, 240, 240);
+}
+
+.image-container {
+}
+
+.detail-container {
+
+}
+
+.preview-image {
+  width: 100%; 
+}
+
+.small-image-size {
+  width: 70px;
+  height: 50px;
+}
+
+.item-name {
+  font-size: xx-large;
+  font-weight: bold;
+ 
+}
+
+.item-code {
+  font-size: medium;
+  
+}
+
+.item-price {
+  font-size: x-large;
+}
+
+.div-seperator {
+  background-color: rgb(119, 117, 117);
+  height: 1px;
+  margin-bottom: 10px;
+}
+
+.item-description {
+  font-size: small;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: orange;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
