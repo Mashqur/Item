@@ -3,21 +3,31 @@
   <head>
     <title>This is Item component</title>
     <link rel="stylesheet", href="styles/item.css">
+    <style>
+      .item {
+        background-color: white;
+        cursor: pointer;
+      }
+
+      .item:hover {
+        box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.15);
+
+      }
+    </style>
   </head>
   <body>
     <div class="thumbnail-row">
-      <div class="item-image">
-        <img class="thumbnail" src="images/bike-2.jpeg">
+      <div class="item">
+        <div class="item-image">
+          <img class="thumbnail" src="images/bike-2.jpeg">
+        </div>
+          
+        <div class="item-info">
+          <p class="item-name">Yamaha R1</p>
+          <p class="item-price">BDT 400000.00</p>
+          <p class="item-discount">25% OFF </p>
+        </div>
       </div>
-        
-      <div class="item-info">
-        <p class="item-name">Yamaha R1</p>
-        <p class="item-price">BDT 400000.00</p>
-        <p class="item-discount">25% OFF </p>
-      </div>
-      <button class="button-cart">
-        Add to cart
-      </button>
     </div>
   </body>
 </html>

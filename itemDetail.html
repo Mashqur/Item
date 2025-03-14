@@ -3,18 +3,20 @@
   <head>
     <title>Item Detail</title>
     <link rel="stylesheet" href="styles/item-detail.css">
+    <script defer src="code/script.js"></script>
+   
   </head>
   <body >
     <div class="container-grid">
       <div class="image-container">
         <div>
-          <img class="preview-image" src="images/bike-1.jpeg">
+          <img id="image-display" class="preview-image" src="images/bike-1.jpeg">
         </div>
         <div class="more-image-container">
-          <img class="small-image-size" src="images/bike-1.jpeg">
-          <img class="small-image-size" src="images/bike-2.jpeg">
-          <img class="small-image-size" src="images/bike-1.jpeg">
-          <img class="small-image-size" src="images/bike-2.jpeg">
+          <img class="small-image-size" src="images/bike-1.jpeg" onclick="displayImage('images/bike-1.jpeg')">
+          <img class="small-image-size" src="images/bike-2.jpeg" onclick="displayImage('images/bike-2.jpeg')">
+          <img class="small-image-size" src="images/bike-1.jpeg" onclick="displayImage('images/bike-1.jpeg')">
+          <img class="small-image-size" src="images/bike-2.jpeg" onclick="displayImage('images/bike-2.jpeg')">
 
 
         </div>
@@ -30,7 +32,6 @@
         <button>Add to cart</button>
         <button>Buy</button>
       </div>
-
     </div>
   </body>
 </html>
