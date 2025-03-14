@@ -1,9 +1,6 @@
-.thumbnail-row {
-  width: 200px;
-  margin-left: 30px;
-}
 
 .item {
+  width: 200px;
   background-color: white;
   cursor: pointer;
 }
